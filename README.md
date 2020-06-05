@@ -2,6 +2,8 @@
 
 A Drupal 9 Gin Future Admin UI Demo.
 
+![Gin Admin UI](https://www.drupal.org/files/project-images/Gin_form_display.png)
+
 ## Prerequisites
 
 ### Get Lando
