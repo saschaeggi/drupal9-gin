@@ -27,6 +27,11 @@ lando start
 ### You're ready to go
 https://drupal9.lndo.site/
 
+```
+username: admin
+password: drupal
+```
+
 ---
 
 ## Commands
@@ -64,15 +69,4 @@ Make sure you're in the frontend folder (`cd web`)
 
 ```
 lando composer COMMAND
-```
-
----
-
-## Drupal
-
-https://drupal9.lndo.site/
-
-```
-username: admin
-password: drupal
 ```
