@@ -20,7 +20,7 @@
         "drupal/admin_toolbar": "^2.0",
         "drupal/coffee": "^1.0",
         "drupal/components": "^2.0",
-        "drupal/core": "9.0.0 as 8.9.0",
+        "drupal/core": "^9.0.0",
         "drupal/core-composer-scaffold": "^9.0.0",
         "drupal/core-project-message": "^9.0.0",
         "drupal/core-recommended": "^9.0.0",
@@ -28,6 +28,7 @@
         "drupal/gin": "^3.0",
         "drupal/gin_login": "^1.0",
         "drupal/gin_toolbar": "^1.0",
+        "drupal/olivero": "^1.0",
         "drupal/paragraphs": "^1.10",
         "drush/drush": "^10.2"
     },
