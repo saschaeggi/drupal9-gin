@@ -1,11 +1,11 @@
 uuid: f1894742-d2b1-4979-9002-b243caa7cc30
-name: 'Drupal 9'
+name: 'Drupal 9 Gin Demo'
 mail: drupal@test.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: '/user/login?destination=/admin/content'
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
