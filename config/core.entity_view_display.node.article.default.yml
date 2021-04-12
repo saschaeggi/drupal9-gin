@@ -6,13 +6,13 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_content
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
-    - image.style.large
     - node.type.article
   module:
     - comment
-    - image
+    - entity_reference_revisions
     - text
     - user
 _core:
@@ -31,32 +31,41 @@ content:
     label: hidden
   comment:
     type: comment_default
-    weight: 110
+    weight: 5
     region: content
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
-  field_image:
-    type: image
-    weight: -1
-    region: content
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: above
     settings:
-      image_style: large
-      image_link: ''
+      view_mode: default
+      link: ''
     third_party_settings: {  }
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 1
     label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
   field_tags:
     type: entity_reference_label
-    weight: 10
+    weight: 2
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }

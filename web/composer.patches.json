@@ -1,4 +1,12 @@
 {
   "patches": {
+    "drupal/core": {
+      "Fix incorrect order and duplicate theme hook suggestions #2752443": "https://www.drupal.org/files/issues/2752443_incorrect-order-and-duplicate-theme-hook-suggestions-5.patch",
+      "Fix inline editing for paragraphs #2700147": "https://www.drupal.org/files/issues/2019-05-30/2700147-25.patch",
+      "Paragraphs collapse all #3099026": "https://www.drupal.org/files/issues/2020-02-20/3099026-9.patch"
+    },
+    "drupal/dropzonejs": {
+      "#3051658 Overwrite upload form for media library": "https://www.drupal.org/files/issues/2020-10-26/3051658-12.patch"
+    }
   }
-} 
+}

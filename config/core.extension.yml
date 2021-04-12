@@ -15,10 +15,12 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  dropzonejs: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
   field: 0
+  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -35,6 +37,8 @@ module:
   node: 0
   options: 0
   page_cache: 0
+  paragraphs_edit: 0
+  paragraphs_modal_edit: 0
   path: 0
   path_alias: 0
   quickedit: 0

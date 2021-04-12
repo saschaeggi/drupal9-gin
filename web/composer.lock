@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a97bd935c292d97cbdd120bedde5e63a",
+    "content-hash": "e844d7817663f11996ca3d547e2bd1f9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1322,26 +1322,29 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "2.4.0",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/admin_toolbar.git",
-                "reference": "8.x-2.4"
+                "reference": "3.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-2.4.zip",
-                "reference": "8.x-2.4",
-                "shasum": "6240047b8d91ac78f98d861ba8282af971fa0b38"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "204f7a0e8b62a8a54256142cf38ca139739fb65c"
             },
             "require": {
                 "drupal/core": "^8.8.0 || ^9.0"
             },
+            "require-dev": {
+                "drupal/admin_toolbar_tools": "*"
+            },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.4",
-                    "datestamp": "1601999178",
+                    "version": "3.0.0",
+                    "datestamp": "1611311186",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1987,6 +1990,95 @@
             "time": "2020-09-14T13:40:36+00:00"
         },
         {
+            "name": "drupal/dropzonejs",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/dropzonejs.git",
+                "reference": "8.x-2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/dropzonejs-8.x-2.5.zip",
+                "reference": "8.x-2.5",
+                "shasum": "9918bd8c3c62599ec701be3bbac986741e735859"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/entity_browser": "^2.5"
+            },
+            "suggest": {
+                "enyo/dropzone": "Required to use drupal/dropzonejs. DropzoneJS is an open source library that provides drag’n’drop file uploads with image previews."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.5",
+                    "datestamp": "1614606376",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Janez Urevc",
+                    "homepage": "https://drupal.org/u/slashrsm",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Christian Fritsch",
+                    "homepage": "https://drupal.org/u/chrfritsch",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Primoz Hmeljak",
+                    "homepage": "https://drupal.org/u/Primsi",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Qiangjun Ran",
+                    "homepage": "https://drupal.org/u/jungle",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1998478/committers",
+                    "role": "contributor"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "wouters_f",
+                    "homepage": "https://www.drupal.org/user/721548"
+                },
+                {
+                    "name": "zkday",
+                    "homepage": "https://www.drupal.org/user/888644"
+                }
+            ],
+            "description": "Drupal integration for DropzoneJS - An open source library that provides drag’n’drop file uploads with image previews.",
+            "homepage": "https://www.drupal.org/project/dropzonejs",
+            "keywords": [
+                "DropzoneJS",
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://www.drupal.org/project/dropzonejs",
+                "issues": "https://www.drupal.org/project/issues/dropzonejs",
+                "#media": "http://drupal.slack.com"
+            }
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.9.0",
             "source": {
@@ -2043,6 +2135,70 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/field_group",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/field_group.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/field_group-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "8a719eaea594f0ba874172831cb28da93c66b77a"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/jquery_ui_accordion": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1591772567",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Hydra",
+                    "homepage": "https://www.drupal.org/user/647364"
+                },
+                {
+                    "name": "Stalski",
+                    "homepage": "https://www.drupal.org/user/322618"
+                },
+                {
+                    "name": "jyve",
+                    "homepage": "https://www.drupal.org/user/591438"
+                },
+                {
+                    "name": "nils.destoop",
+                    "homepage": "https://www.drupal.org/user/361625"
+                },
+                {
+                    "name": "swentel",
+                    "homepage": "https://www.drupal.org/user/107403"
+                }
+            ],
+            "description": "Provides the field_group module.",
+            "homepage": "https://www.drupal.org/project/field_group",
+            "support": {
+                "source": "https://git.drupalcode.org/project/field_group",
+                "issues": "https://www.drupal.org/project/issues/field_group"
             }
         },
         {
@@ -2307,6 +2463,117 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
+            "name": "drupal/paragraphs_edit",
+            "version": "2.0.0-alpha8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/paragraphs_edit.git",
+                "reference": "8.x-2.0-alpha8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs_edit-8.x-2.0-alpha8.zip",
+                "reference": "8.x-2.0-alpha8",
+                "shasum": "7447a72afc3ef528afa51996bbf7c8dbf3d822b8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/paragraphs": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-alpha8",
+                    "datestamp": "1592930672",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bbrala",
+                    "homepage": "https://www.drupal.org/user/3366066"
+                },
+                {
+                    "name": "casey",
+                    "homepage": "https://www.drupal.org/user/32403"
+                }
+            ],
+            "description": "Allows users to edit/clone and delete paragraphs.",
+            "homepage": "https://www.drupal.org/project/paragraphs_edit",
+            "support": {
+                "source": "https://git.drupalcode.org/project/paragraphs_edit"
+            }
+        },
+        {
+            "name": "drupal/paragraphs_modal_edit",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/paragraphs_modal_edit.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs_modal_edit-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "d6f396ee405f92e559a576cdecc4aabd5314527e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/paragraphs": "*",
+                "drupal/paragraphs_edit": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1590859070",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "InaW",
+                    "homepage": "https://www.drupal.org/user/3612364"
+                },
+                {
+                    "name": "dermario",
+                    "homepage": "https://www.drupal.org/user/241276"
+                },
+                {
+                    "name": "megadesk3000",
+                    "homepage": "https://www.drupal.org/user/639386"
+                },
+                {
+                    "name": "saschaeggi",
+                    "homepage": "https://www.drupal.org/user/1999056"
+                }
+            ],
+            "description": "Functionality for the editing paragraphs in a Drupal modal/dialog",
+            "homepage": "https://www.drupal.org/project/paragraphs_modal_edit",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/paragraphs_modal_edit",
+                "issues": "https://www.drupal.org/project/issues/paragraphs_modal_edit"
             }
         },
         {
@@ -2580,6 +2847,15 @@
                 "source": "https://github.com/enlightn/security-checker/tree/v1.7.0"
             },
             "time": "2021-03-03T11:56:26+00:00"
+        },
+        {
+            "name": "enyo/dropzone",
+            "version": "dev-master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/enyo/dropzone/archive/master.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "grasmash/expander",
@@ -4021,6 +4297,15 @@
                 "source": "https://github.com/ralouphie/getallheaders/tree/develop"
             },
             "time": "2019-03-08T08:55:37+00:00"
+        },
+        {
+            "name": "sortablejs/sortable",
+            "version": "dev-master",
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/SortableJS/Sortable/archive/master.zip"
+            },
+            "type": "drupal-library"
         },
         {
             "name": "stack/builder",
@@ -6833,7 +7118,11 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/paragraphs_edit": 15,
+        "enyo/dropzone": 20,
+        "sortablejs/sortable": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
